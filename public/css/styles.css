@@ -1,0 +1,255 @@
+
+.content
+{	width:95%;
+	height:inherit;
+	margin:auto;
+	margin-top:40px;
+	top:50%;
+}
+
+.homeButton
+{
+width:200px;
+height:40px;
+}
+
+#homeButton1
+{
+float:left;
+}
+
+#homeButton2
+{
+float:right;
+}
+#home-hero-text{
+	text-align:center;
+	margin-top:20%;
+}
+.about-text{
+margin:0;
+padding:0;
+width:27em;
+float:right;
+}
+.about-bio{
+margin:0;
+padding:0;
+width:40em;
+color:green;
+border-style:groove;
+border-color:black;
+height:150px;
+background-color:#FFFFCC
+}
+
+.about-p
+{
+overflow: hidden;
+}
+.about-image
+{
+height:150px;
+width:150px;
+border-right-width:1px;
+border-right-style:groove;
+border-color:black;
+}
+.about-content{
+
+margin:auto;
+padding:auto;
+margin-top:40px;
+margin-left:27%;
+max-width:50%;
+}
+.about-view{
+	position:absolute;
+	top:0px;
+	margin: auto;
+	min-height:98%;
+	padding:auto;
+	background-image: url("../img/dine.jpg");
+	width:1298px;
+}
+
+#editHeader
+{
+color:black;
+}
+.span1{
+
+}
+
+.span2{
+margin-right:15px;
+}
+.edit-view{
+margin:0;
+padding:0;
+margin-left:100px;
+margin-top:50px;
+}
+.home-hero{	
+	position:absolute;
+	top:0px;
+	margin: auto;
+	min-height:98%;
+	padding:auto;
+	font-size: 30px;
+	font-family: Andika;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	background-image: url("../img/dine.jpg");
+	height:inherit;
+	width:1298px;
+}
+html
+{
+margin:0;
+padding:0;
+}
+body {
+	margin:0;
+	padding:0;
+    background-image: url("../img/bf.jpg");
+	background-repeat: repeat;
+	background-position: 90% 20%; 
+	color: rgba(255, 255, 255, 1);
+	width:100%;
+}
+
+#btnImg
+{
+	max-height: 25px;
+	max-width:25px;
+}
+
+#buttons{
+    margin: 0 auto; /* to make the div center align to the browser */
+    padding: 20px;
+    width: 300px; /* set it to anything */
+	margin-top: -5%;
+    text-align: center;
+}
+
+#button{
+	opacity: 0.7;
+	max-width: 140px;
+}
+
+
+
+.browseEntry{
+	border-width: 1px;
+	border-color: #25383C;
+	border-style:solid;
+max-width:282px;
+max-height:305px;
+}
+
+#browseContainer{
+margin-left:100px;
+}
+.row{
+padding:10px;
+color:black;
+}
+
+.span1{
+}
+.browseImage{
+height:210px;
+width:282px;
+
+}
+.browseEntry{
+color:black;
+text-align:center;
+background-color:pink;
+padding:0;
+margin:0;
+width:282px;
+}
+
+.browseHeader{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+
+.browseLine{
+margin:0;
+padding:0;
+}
+
+.edit-view
+{	width: 100%;
+	margin-top:130px;
+}
+
+.editnotification {
+	position:fixed;
+	width:90%;
+	margin:auto;
+	margin-left:42px;
+	z-index: 1000;
+	margin-top:-90px;
+}
+
+#addForm{
+	    left: 0;
+	text-align: left;
+    line-height: 0px;
+    margin: auto;
+    margin-top: 0px;
+    width: 700px;
+	color:black;
+	float: left;
+	
+}
+
+#img-rightside {
+
+	width:550px;
+	float:right;
+}
+
+
+#holder img{ 
+	width: 282px;
+	height: 210px;
+}
+
+input.file{
+	color: #000000;
+}
+
+.help-inline{
+margin-left:20px;
+margin-top:8px;
+color:red;
+}
+
+.redClass{
+color:red;
+
+}
+
+.redClass input {
+border-color:red;
+}
+
+#notification
+{
+	position:fixed;
+	width:90%;
+	margin-left:42px;
+	z-index: 1000;
+}
+
+#image-upload {
+	border: 10px dashed #ccc; 
+	margin-right: 20px;
+	width: 200px; 
+	min-height: 200px;
+}

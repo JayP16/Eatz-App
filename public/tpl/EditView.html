@@ -1,0 +1,62 @@
+
+<div class="edit-view" >
+
+	<form id="addForm">
+		<button type="button" class="btn btn-primary saveButton">Save</button>
+		<button type="button" class="btn btn-default deleteButton">Delete</button>
+		<h4 id="editHeader">Dish Details</h4>
+		<br />
+		<div class="row">
+			<div class="container">
+				<input type="hidden" id="editId"></input>
+				<div class="row" id="validateDishName">	
+					<div class="span1"><p>Name:</p></div>
+					<div class="span2"><input class="control-group control-label" id="dishName" type="text" value="<%- name %>"></input></div>
+				</div>
+				<div class="row" id="validateVenue">
+					<div class="span1">Venue:</div>
+					<div class="span2"><input class="control-group control-label" id="venue" type="text" value="<%- venue %>"> </input></div>
+				</div>
+				<div class="row" id="validateInfo">
+					<div class="span1">Info:</div>
+					<div class="span2"><input class="control-group control-label" id="info" type="text" value="<%- info %>"> </input></div>
+				</div>
+				<div class="row" id="validateAddress">
+					<div class="span1">Address:</div>
+					<div class="span1"><input class="control-group control-label" id="streetNumber" type="text" value="<%- numbr %>" style="width:70px;"> </input></div>
+					<div class="span2"><input class="control-group control-label" id="streetName" type="text" value="<%- street %>"> </input></div>
+					<div class="span2"><input class="control-group control-label" id="city" type="text" value="<%- city %>"></input></div>
+					<div class="span2"><button type="button" class="btn btn-primary useLocationButton">use my location</button></div>
+				</div>
+				<div class="row" id="validateProvince">
+					<div class="span1">Province:</div>
+					<div class="span2"> <input class="control-group control-label" id="province" type="text" value="<%- province %>"> </input></div>
+				</div>
+				<div class="row" id="validateURL">
+					<div class="span1">URL:</div>
+					<div class="span2"><input class="control-group control-label" id="url" type="text" value="<%- url %>"> </input></div>
+				</div>
+				
+
+			</div> 
+		</div>	
+			<input id="hiddenImage" type="hidden" value="<%- image %>"></input>
+				
+	</form>
+	
+	<div id="img-rightside">
+		<div id="img-upload">
+			<div id="holder" draggable="true" > 
+				<!-- <img id="image-upload" draggable="true" src='img/default.png'> -->
+				<img id="image-upload" draggable="true" src='<%- image %>'>
+			</div> 
+			<div class='hidden2'><input id="dishImageUpload" class="file" type="file" accept="image/*;capture=camera"></div>
+		</div>	
+				
+		<div id="map" class="map" style="height: 240px; width: 440px;"> 
+			
+		</div>
+	</div>
+</div>
+
+<script src="js/lib/drag.js"></script>

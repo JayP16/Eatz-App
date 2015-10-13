@@ -1,0 +1,68 @@
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <div id="headerContent"><div><div class="headerButtons active">
+	<a class="brand noSelect" id ="menuBut" href="#">MyEatz</a>
+    <div class="nav-collapse collapse">
+        <ul class="nav">
+            <li class=""><a class= "noSelect" id ="menuBut" href="#dishes">Browse</a></li>
+            <li class=""><a class= "noSelect" id ="menuBut" href="#dishes/add"><i class="icon-edit icon-white"></i>Add</a></li>
+        </ul>
+        <ul class="nav pull-right">
+		     <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-filter icon-white"></i>Filter <b class="caret"></b></a>
+             <form id ="sortForm" action="" class="dropdown-menu">
+				<div style="margin-left: 8px; color: black;">
+				<h5>Sort Order</h5>
+				<input class="nameSort" type="radio" name="sort" value="name" checked="true"><p>Name</p>
+				<input class="venueSort" type="radio" name="sort" value="venue"><p>Venue</p>
+				</div>
+			</form>
+			</li>   
+			
+			<li class="dropdown">
+            <a href="#" class="dropdown-toggle signUpDropdown" data-toggle="dropdown"><i class="icon-pencil icon-white"></i>Sign Up <b class="caret"></b></a>
+			<form class="dropdown-menu">
+			<br>
+				<input id="signupUsername" type="text" placeholder="Username" name="username" style="width:90%; margin-left:5px;"><br>
+				<input id="signupEmail" type="text" placeholder="Email" name="email" style="width:90%; margin-left: 5px;"><br>
+				<input id="signupPass" type="password" placeholder="Enter Password" name="password1" style="width:90%; margin-left: 5px;"><br>
+				<input id="signupPassConfirm" type="password" placeholder="Confirm Password" name="password2" style="width:90%; margin-left: 5px;"><br>
+
+				<button type="button" class="btn btn-block btn-primary btn-small signUpButton" style="width:80%; margin:auto;">Sign Up</button>
+			</form>
+			</li>  
+			<li class="dropdown">
+			            <a href="#" class="dropdown-toggle signInDropdown" data-toggle="dropdown">Sign In <b class="caret"></b></a>
+            <form class="dropdown-menu signInDropdownForm">
+			<div id="displaySignIn">
+			<br>
+				<input id="signInUsername" type="text" placeholder="Username" name="username" style="width:90%; margin-left:5px;"><br>
+				<input id="signInPassword" type="password" placeholder="Password" name="password" style="width:90%; margin-left: 5px;"><br>
+				<div class="checkbox" style="margin-left: 5px;">
+					<label style="color:black;">
+						<input id="rememberMe" type="checkbox"> Remember me
+					</label>
+				</div>
+				<button type="button" class="btn btn-block btn-primary btn-small signInButton" style="width:80%; margin:auto;">Sign In</button>
+			</div>
+			
+			<div id="displaySignInUserInfo">
+			<label id="displaySignInUsername" style="color:black; margin-left:65px;"></label><br>
+			<button type="button" class="btn btn-block btn-primary btn-small signOutButton" style="width:80%; margin:auto;">Sign Out</button>
+			</div>
+			</form>
+			</li> 
+        	<li class=""><a class= "noSelect"  id ="menuBut" href="#about">About</a></li>
+        </ul>
+    </div>
+</div></div></div>
+        </div>
+      </div>
+	  	<div id="notification" class="alert alert-info hidden editnotification">
+		<!-- notification placeholder -->
+ 
+		</div>
+    </div>
+
